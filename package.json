@@ -1,0 +1,16 @@
+{
+  "name": "filter-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "json5": "^0.4.0",
+    "loader-utils": "^0.2.7",
+    "lodash.pick": "^3.1.0"
+  }
+}
