@@ -14,5 +14,5 @@ module.exports = function(content) {
   } else {
     data = pick(data, Object.keys(query));
   }
-  return JSON.stringify(data);
+  return "module.exports = " + JSON.stringify(data);
 };
